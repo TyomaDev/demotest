@@ -3,42 +3,42 @@
 --------
  Матчи
 --------
-PK ID_Матча int not null
-FK ID_Команды_1 int not null
-FK ID_Команды_1 int not null
-Дата date not null
-Результат nvarchar(MAX)
-Описание nvarchar(MAX)
-Место_проведения  nvarchar(MAX)
+| PK ID_Матча int not null |
+| FK ID_Команды_1 int not null | 
+| FK ID_Команды_1 int not null |
+| Дата date not null |
+| Результат nvarchar(MAX) |
+| Описание nvarchar(MAX) |
+| Место_проведения  nvarchar(MAX) |
 -------------------------------
 
 ----------
  Команда
 ----------
-PK ID_Команды int not null
-Название nvarchar(MAX)
-FK ID_Тренера int not null
+| PK ID_Команды int not null |
+| Название nvarchar(MAX) |
+| FK ID_Тренера int not null |
 --------------------------
 
 -------------
  Футболисты
 -------------
-PK id int not null
-ФИО nvarchar(MAX) not null
-Роль nvarchar(MAX) not null
-Возраст int not null
+| PK id int not null |
+| ФИО nvarchar(MAX) not null |
+| Роль nvarchar(MAX) not null |
+| Возраст int not null |
 --------------------------
 
 ---------
  Тренер
 ---------
-PK ID_Тренера int not null
-Фамилия nvarchar(MAX) not null
-Имя nvarchar(MAX) not null
-Отчество nvarchar(MAX)
-Биография nvarchar(MAX)
-Категория nvarchar(MAX)
-Награды nvarchar(MAX)
+| PK ID_Тренера int not null |
+| Фамилия nvarchar(MAX) not null |
+| Имя nvarchar(MAX) not null |
+| Отчество nvarchar(MAX) |
+| Биография nvarchar(MAX) |
+| Категория nvarchar(MAX) |
+| Награды nvarchar(MAX) |
 --------------------------
 
 
