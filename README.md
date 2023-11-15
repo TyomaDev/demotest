@@ -25,7 +25,8 @@
 -------------
 | PK id int not null   
 | ФИО nvarchar(MAX) not null   
-| Роль nvarchar(MAX) not null   
+| Роль nvarchar(MAX) not null  
+| FK id_команды int not null  
 | Возраст int not null   
 --------------------------
 
